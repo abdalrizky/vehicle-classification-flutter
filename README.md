@@ -18,6 +18,18 @@ Proyek ini dibangun menggunakan teknologi berikut:
 - **`camera`**: Plugin untuk mengakses kamera perangkat.
 - **`image_picker`**: Plugin untuk memilih gambar dari galeri.
 
+## 📸 Screenshot
+<table>
+  <tr align="center">
+    <td>Tampilan Utama</td>
+    <td>Klasifikasi Foto Galeri</td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://github.com/user-attachments/assets/74882a69-8343-4ee4-b2c9-5564b54fdb49" width=300></td>
+    <td><img src="https://github.com/user-attachments/assets/ec949e55-4883-4d98-9899-112b7d932a65" width=300></td>
+  </tr>
+</table>
+
 ## 📂 Struktur Proyek
 
 Berikut adalah struktur direktori dan file penting dalam proyek ini:
@@ -69,6 +81,11 @@ https://www.kaggle.com/datasets/utkarshsaxenadn/car-vs-bike-classification-datas
 
 ## 📱 File .apk
 https://drive.google.com/file/d/18TSS4v8Jb1qfIUWgON1uvQgb_EkIPyr_/view?usp=sharing
+
+## 📖 Cara Menggunakan Aplikasi
+1. Di Tampilan Utama, pilih Klasifikasi Galeri.
+2. Pilih gambar yang ingin dideteksi dengan klik ikon cari gambar di pojok kanan atas.
+3. Gambar dan hasil akurasi akan muncul. Apabila objek bukan kendaraan roda dua atau roda empat, seharusnya akan mengeluarkan pesan "Objek Tidak Dikenali".
 
 ---
 Dibuat oleh Kelompok 2 B'23:
