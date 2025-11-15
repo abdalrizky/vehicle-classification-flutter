@@ -1,4 +1,4 @@
-# Roda Lens - Klasifikasi Kendaraan dengan Flutter
+# Roda Lens - Klasifikasi Kendaraan Roda Dua dan Roda Empat dengan Flutter
 
 Proyek ini adalah aplikasi mobile yang dibangun menggunakan Flutter untuk melakukan klasifikasi jenis kendaraan roda dua dan roda empat secara _real-time_ menggunakan kamera atau dari gambar yang ada di galeri. Aplikasi ini memanfaatkan model Machine Learning TensorFlow Lite untuk mengenali objek kendaraan.
 
@@ -27,21 +27,16 @@ Berikut adalah struktur direktori dan file penting dalam proyek ini:
 ├── assets/
 │   ├── ml/
 │   │   ├── model.tflite  # File model Machine Learning yang telah di-training.
-│   │   └── labels.txt    # File teks berisi daftar nama/label kelas (e.g., Mobil, Motor).
+│   │   └── labels.txt    # File teks berisi daftar nama/label kelas (mobil dan motor).
 │   └── images/           # Direktori untuk menyimpan aset gambar yang digunakan di UI.
-│
-├── ipynb/              # Direktori berisi Jupyter Notebook, kemungkinan besar digunakan
-│                       # untuk proses persiapan data dan training model machine learning.
-│
+├── ipynb/              # Direktori berisi Jupyter Notebook, digunakan untuk proses persiapan data dan training model machine learning.
 ├── lib/                # Direktori utama yang berisi semua kode sumber Dart aplikasi.
 │   ├── models/         # Berisi kelas-kelas model data (misal model untuk hasil prediksi).
 │   ├── screens/        # Berisi file-file untuk setiap halaman/layar pada aplikasi.
 │   ├── services/       # Berisi logika bisnis, seperti layanan untuk klasifikasi gambar.
 │   ├── widgets/        # Berisi widget-widget kustom yang dapat digunakan kembali.
 │   └── main.dart       # Titik masuk (entry point) aplikasi Flutter.
-│
 ├── test/               # Berisi file-file untuk pengujian (unit testing, widget testing).
-│
 ├── .gitignore          # Konfigurasi file dan direktori yang diabaikan oleh Git.
 ├── pubspec.yaml        # File konfigurasi utama proyek Flutter. Di sini Anda mendaftarkan dependensi (seperti tflite_flutter) dan aset (seperti model.tflite).
 └── README.md           # File dokumentasi ini.
