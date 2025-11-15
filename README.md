@@ -1,3 +1,4 @@
+<img width="100" src="https://github.com/user-attachments/assets/eefb4651-7b54-4268-851e-00a520dd7521" /><br>
 # Roda Lens - Klasifikasi Kendaraan Roda Dua dan Roda Empat dengan Flutter
 
 Proyek ini adalah aplikasi mobile yang dibangun menggunakan Flutter untuk melakukan klasifikasi jenis kendaraan roda dua dan roda empat secara _real-time_ menggunakan kamera atau dari gambar yang ada di galeri. Aplikasi ini memanfaatkan model Machine Learning TensorFlow Lite untuk mengenali objek kendaraan.
